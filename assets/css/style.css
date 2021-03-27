@@ -31,7 +31,7 @@ a {
 
 /*ridho*/
 .container-content {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     background: linear-gradient(to right, #dadcdf, #888c8f);
 }
@@ -51,11 +51,11 @@ a {
 
 .card-content {
     display: inline-block;
-    width: 45%;
+    width: 40%;
     border: 1px solid #ccc;
     margin-bottom: 50px;
     transition: 0.3s;
-    height: 600px;
+    height: 250px;
     border-radius: 30px;
     background: linear-gradient(to right, #3F3D56, #3F3D56);
 }
@@ -190,14 +190,14 @@ footer {
     width: 100%;
     bottom: 0px;
     margin: 0 auto;
-    height: 30px;
+    height: 40px;
     background-color: #3F3D56;
 
 }
 
 footer p {
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
     padding: 5px;
 }
