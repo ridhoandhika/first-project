@@ -225,8 +225,7 @@ li {
 
 .content-home{
   background-repeat: no-repeat;
-  ba
-  ckground-attachment: fixed;
+  background-attachment: fixed;
   background-size: cover;
   padding-bottom: 500px;
 }
