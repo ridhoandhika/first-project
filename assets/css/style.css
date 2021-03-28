@@ -199,6 +199,7 @@ header {
     float: right;
     display: inline;
     margin-right: 25px;
+    padding: 10px 0;
 }
 
 .header-right a {
@@ -222,13 +223,22 @@ li {
     text-decoration: none;
 }
 
+.content-home{
+  background-repeat: no-repeat;
+  ba
+  ckground-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 500px;
+}
+
 .card-home {
     display: inline-block;
-    width: 40%;
+    width: 36.3%;
     border: 1px solid #ccc;
-    margin-bottom: 50px;
+    margin-top: 470px;
+    margin-left: 190px;
     transition: 0.3s;
-    height: 330px;
+    height: 365px;
     background: linear-gradient(to right, #6e6c7e, #8d8ba7);
 }
 
