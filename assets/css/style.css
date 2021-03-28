@@ -9,8 +9,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     height: 100%;
+   
+   
 }
-
 main {
     width: 100%;
     margin: 0 auto;
@@ -21,6 +22,7 @@ main {
 .container {
     min-height: 100%;
     position: relative;
+
 }
 
 a {
@@ -34,6 +36,8 @@ a {
     width: 100%;
     margin: 0 auto;
     background: linear-gradient(to right, #dadcdf, #888c8f);
+    margin-top: 0px;
+  
 }
 
 .heading {
@@ -211,6 +215,64 @@ p a {
     }
 }
 
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+    
+  }
+  label.logo {
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 32px 80px;
+  
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,
+  a:hover {
+    background: rgb(252, 252, 252);
+    transition: 0.5s;
+  }
+  
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+  section {
+    background: url() no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  
+  .home {
+    border: 1px solid rgb(100, 100, 100); background:silver; height: 252px; overflow: auto; text-align: center;
+  }
+
 footer {
     width: 100%;
     bottom: 0px;
@@ -231,6 +293,14 @@ footer p {
     .card-content {
         width: 100%;
     }
+
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+      }
+      nav ul li a {
+        font-size: 16px;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -243,4 +313,36 @@ footer p {
     .heading {
         margin-bottom: 10px;
     }
+
+    /* .checkbtn {
+        display: block;
+      }
+      ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+      }
+      nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      nav ul li a {
+        font-size: 20px;
+      }
+      a:hover,
+      a.active {
+        background: none;
+        color: rgb(201, 201, 201);
+      }
+    
+      #check:checked ~ ul{
+        left: 0;
+      }
+     */
 }
