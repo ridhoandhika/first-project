@@ -173,6 +173,65 @@ p a {
     left: 100px;
 }
 
+header {
+    height: 65px;
+    width: 100%;
+    background: #3F3D56;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+.header-left {
+    float: left;
+    font-size: 40px;
+    padding: 0 40px;
+}
+
+.header-left a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.header-right {
+    float: right;
+    display: inline;
+    margin-right: 25px;
+}
+
+.header-right a {
+    line-height: 40px;
+    padding: 0 25px;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+}
+
+.header-right a {
+    text-decoration: none;
+}
+
+.card-home {
+    display: inline-block;
+    width: 40%;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    height: 330px;
+    background: linear-gradient(to right, #6e6c7e, #8d8ba7);
+}
+
 #member1 {
     animation-timing-function: linear;
 }
