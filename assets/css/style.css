@@ -113,6 +113,40 @@ p a {
 
 /* Our Team */
 
+/*herlyn */
+section {
+    position: relative;
+}
+
+.card-home {
+    position: absolute;
+    top: 319px;
+    left: 128px;
+    min-width: 475px;
+    min-height: 253px;
+    overflow: hidden;
+    font-size: 23px;
+}
+
+.card-home h2 {
+    font-size: 25px;
+}
+
+.txt-home {
+    padding: 30px 10px;
+}
+
+.card-icon {
+    position: relative;
+    width: 100%;
+}
+
+.txt-cardbody {
+    padding-left: 100px;
+}
+
+/*herlyn */
+
 .container-about {
     width: 90%;
     padding-top: 10px;
@@ -404,6 +438,10 @@ footer p {
 }
 
 /* Responsive Breakpoint */
+>>>>>>>346539b09d036e70afd1deb16b596a751f06af75 @media all and (max-width: 1000px) {
+    section {
+        position: relative;
+    }
 
 @media all and (max-width: 1000px) {
     .card-content {
