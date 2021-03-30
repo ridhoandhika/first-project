@@ -95,7 +95,13 @@ p a {
 .card-body img {
     width: 80px;
     float: left;
+    margin-right: 20px;
 }
+
+.card-body p {
+    text-align: justify;
+}
+
 
 .card-content:hover {
     transform: scale(1.05);
@@ -266,7 +272,8 @@ nav ul li a {
     text-decoration: none;
 }
 
-label #sign-one, label #sign-two {
+label #sign-one,
+label #sign-two {
     font-size: 30px;
     float: right;
     line-height: 50px;
@@ -282,7 +289,7 @@ label #sign-one, label #sign-two {
 /* Home */
 
 main {
-    padding-top: 100px ;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -450,7 +457,7 @@ footer p {
         z-index: 10;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
         margin: 40px 0;
         line-height: 30px;
@@ -460,15 +467,15 @@ footer p {
         font-size: 20px;
     }
 
-    #res-menu:checked ~ ul {
+    #res-menu:checked~ul {
         left: 0;
     }
-    
-    #res-menu:checked ~ label #sign-one{
+
+    #res-menu:checked~label #sign-one {
         display: none;
     }
 
-    #res-menu:checked ~ label #sign-two{
+    #res-menu:checked~label #sign-two {
         display: block;
     }
 
